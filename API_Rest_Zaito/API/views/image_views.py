@@ -9,7 +9,7 @@ from API.serializers.general_serializers import ImageSerializer
 
 
 
-# Listar y crear imágenes
+
 class ImageViewSet(viewsets.ModelViewSet):
     serializer_class = ImageSerializer
 
